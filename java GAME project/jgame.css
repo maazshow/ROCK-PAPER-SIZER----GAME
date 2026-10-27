@@ -1,0 +1,145 @@
+﻿
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+
+
+}
+.head1 {
+    margin: 20px auto 0;
+    background-image: url("messagebox.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+}
+h1 {
+/*    margin-top:300px;*/
+/*    height: 5rem;*/
+/*    line-height: 5rem;*/
+    text-align: center;
+    font-size: 50px;
+    color:darkgray;
+    filter: drop-shadow(0 0 3px black);
+    
+}
+/*..................choices main div...........*/
+.choices{
+/*   border:solid 10px;
+   border-color:orange;*/
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   gap:3rem;
+   margin-top:5rem;
+
+}
+/*..................cjoice div................*/
+
+.choice {
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    
+
+}
+.choice:hover{
+/*cursor kok pointer ma convert krna ka lya*/
+    cursor:pointer;  
+
+}
+img {
+    height: 400px;
+    width: 400px;
+    transition: 0.3s;
+}
+    img:hover {
+        filter: drop-shadow(0 0 10px orange);
+        transform:scale(1.1);
+    }
+
+/*...........score board*/
+.score_board{
+    text-align:center;
+    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+   
+
+}
+
+p{
+    font-size:20px;
+}
+
+/*......score display.......*/
+#userscore{
+
+    font-size:50px;
+
+}
+
+#comscore{
+    font-size:50px;
+
+}
+/*.......message container....*/
+.msg {
+    height: 90px;
+    text-align: center;
+    width: 500px;
+    font-size: 60px;
+    border-radius: 10%;
+    background-color: transparent;
+    background-image: url("messagebox.jpg");
+    background-size: cover;
+    border-color: black;
+    color:black;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto 0;
+    box-shadow: 5px 5px 10px black;
+}
+body {
+    background-image: url("pkd.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.inbody {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size:cover;
+
+    margin:auto;
+    padding-bottom:150px;
+}
+.score {
+    color: azure;
+    background-image: url("scorebox.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 100px;
+    width: 150px;
+    box-shadow: 5px 5px 10px black;
+}
